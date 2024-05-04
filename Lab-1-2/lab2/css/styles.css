@@ -1,0 +1,153 @@
+/*
+Author:Anthony Vecchiarello
+Date:3/27/24
+File Name: styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, h3, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for body and images */
+body {
+    background-color: #f6eee4;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+/*Style rules for mobile viewport*/
+
+/* Style rules to show mobile class and hide tab-desk class*/
+
+
+/*Style rules for header area */
+.mobile h1 {
+padding: 2%;
+text-align: center;
+  font-family: "Emblema One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.mobile h3 {
+padding: 2%;
+text-align: center;
+font-family: "Lora", serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+}
+/* Style rules for navigation area */
+nav {
+    background-color: #2a1f14;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: block; /* Changed display value to block */
+    font-size: 1.5em;
+    font-family: Geneva, Arial, sans-serif;
+    font-weight: bold;
+    border-top: 0.5px solid #f6eee4; /* Added top border */
+}
+
+/* Style rules for main content */
+nav li a {
+    display: block;
+    color: #f6eee4;
+    padding: 0.5em 2em;
+    text-decoration: none;
+}
+
+/* Style rules for main content */
+main {
+    padding: 2%;/* sets the padding to 2% */
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Style rules for main content */
+main p {
+    font-size: 1.25em;/* sets the font size to 1.25em */
+}
+
+/* Style rules for main content */
+main h3 {
+    padding-top: 2%; /* sets the top padding to 2% */
+}
+
+/* Style rules for main content */
+main ul {
+    list-style-type: square;/* sets the list style type to square */
+}
+
+/* Style rules for main content */
+.link {
+    color: #4d3319; /* Sets the color to #4d3319 */
+    text-decoration: none; /* Removes the underline */
+    font-weight: bold; /* Sets the font weight to bold */
+    font-style: italic; /* Sets the font style to italic */
+}
+
+/* Style rules for main content */
+.action {
+    font-size: 1.75em; /* sets the font size to 1.75em */
+    font-weight: bold; /* Sets the font weight to bold */
+    text-align: center; /* Aligns the text center */
+}
+
+/* Style rule for the round class selector */
+.round {
+    border-radius: 6px;
+}
+
+/* Style rule for the #info ul selector */
+#info ul {
+    margin-left: 10%;
+}
+
+/* Style rules for main content */
+#contact {
+    text-align: center; /* aligns the text center */
+}
+
+/* Style rule for the tel-link class selector */
+.tel-link {
+    background-color: #2a1f14;
+    padding: 2%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Style rule for the anchor selector within the tel-link class */
+.tel-link a {
+    color: #f6eee4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Style rules for footer content */
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    background-color: #2a1f14;
+    color: #f6eee4;
+    padding: 1% 0;
+}
+
+footer a {
+    color: #f3e6d8;
+    text-decoration: none;
+}
