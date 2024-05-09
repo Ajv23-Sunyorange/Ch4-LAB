@@ -1,6 +1,6 @@
 /*
 Author: Anthony Vecchiarello
-Date: 3/27/24
+Date: 5/8/24
 File Name: styles.css
 */
 
@@ -22,7 +22,7 @@ figcaption {
 }
 
 /* Style Rule for box sizing applies to all elements */
-* {
+ {
   box-sizing: border-box;
 }
 
@@ -113,7 +113,8 @@ main p {
   border-radius: 8px;
 }
 
-#contact .email-link {
+#contact .email-link,
+#contact #rental h2 {
   text-align: center;
 }
 
@@ -143,6 +144,32 @@ main p {
   border: 5px solid #373684;
   width: 95%;
   height: 50%;
+}
+
+/* Style rules for table */
+
+table {
+  border: 1px solid #373684;
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 100%;
+}
+caption {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 1%;
+}
+th, td {
+  border: 1px solid #373684;
+  padding: 2%;
+}
+th {
+  background-color: #373684;
+  color: #fff;
+  font-size: 1.15em;
+}
+tr:nth-child(odd) {
+  background-color: #b7b7e1;
 }
 
 /* Media Query for Tablet Viewport */
@@ -234,7 +261,6 @@ main p {
     float: left;
     margin: 0 2%;
   }
-}
 
 /* Media Query for Print */
 @media print {

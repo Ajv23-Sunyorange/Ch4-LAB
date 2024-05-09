@@ -110,11 +110,13 @@ footer a {
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 620px) {
     /* Tablet Viewport: Show tab-desk class, hide mobile class */
-    /* Tablet Viewport: Style rules for nav area */
-    .tab-desk {
+
+    .tab-desk,
+    .desktop {
         display: block;
     }
-    .mobile {
+    .mobile,
+    .mobile-tablet {
         display: none;
     }
 
@@ -127,11 +129,17 @@ footer a {
     nav li a {
         padding: 0.5em;
     }
+
+    /* Tablet Viewport: Style rule for form element */
+    form {
+        width: 70%;
+        margin: 0 auto;
+    }
 }
 
 /* Media Query for Desktop Viewport */
 @media screen and (min-width: 1000px) {
-  
+
     /* Desktop Viewport: Style rules for nav area */
     nav li {
         font-size: 1.5em;
@@ -148,6 +156,26 @@ footer a {
     #info ul {
         margin-left: 5%;
     }
+
+
+    /* Desktop Viewport: Style rules for form elements below the table row style rule */
+    form {
+        width: auto;
+    }
+
+    /* Desktop Viewport: Style rules for form elements below the table row style rule */
+    .form-grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 20px;
+    }
+
+
+    .btn {
+        grid-column: 1 / span 2;
+    }
+
+
 }
 
 /* Media Query for Large Desktop Viewports */
